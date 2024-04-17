@@ -16,7 +16,7 @@ root.title("steganography")
 root.geometry("700x500+150+180")
 root.resizable(False,False)
 root.configure(bg="#1aa260")
-
+#show image
 def showImage():
     text1.delete(1.0,END)
     text2.delete(1.0,END)
