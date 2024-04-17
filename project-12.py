@@ -10,7 +10,7 @@ import os
 import string
 from stegano import lsb
 from tkinter import messagebox
-
+#root
 root=Tk()
 root.title("steganography")
 root.geometry("700x500+150+180")
@@ -33,7 +33,7 @@ def showImage():
     lbl.configure(image=img,width=250,height=250)
     lbl.image=img
     img1=cv2.imread(filename)
-
+#hide
 def Hide():
     
     global password,message,img1,d,c
@@ -78,7 +78,7 @@ def Hide():
     text1.delete(1.0,END)
     text2.delete(1.0,END)
 
-
+#show
 def Show():
     
     d={}
