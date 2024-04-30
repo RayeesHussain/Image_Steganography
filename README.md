@@ -1,12 +1,10 @@
-# SISAC
+# Image Steganography using LSB.
 
-!(https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
+![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
 
-### Student Information System And Cafeteria
 
 <p align = "center"><img src="./logo1.png" width="200"></p>
 
-Image Steganography using LSB.
 
 - Steganography-Hiding text in a message project aims to design and implement a robust system for concealing information within digital images using the Least Significant Bit (LSB) method. 
 - The project scope involves the development of an algorithm that embeds data into the least significant bits of pixel values, ensuring minimal visual impact. 
